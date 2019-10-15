@@ -7,7 +7,7 @@ function App() {
       <div>
         <nav>
           <Link to='/'>Home</Link>
-          <Link to='/team'>The Team</Link>
+          <Link to='/team'>Meet the Team</Link>
           <Link to='/car'>The Car</Link>
           <Link to='/gallery'>Gallery</Link>
           <Link to='/contact'>Contact Us</Link>
