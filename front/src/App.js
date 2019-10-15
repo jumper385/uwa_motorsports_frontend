@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom'
 
+import Team from './pages/Team';
+
 const App = () => {
   return (
     <Router>
@@ -29,12 +31,6 @@ const App = () => {
 const Home = () => {
   return(
     <h1>Home Page - UWA Motor Sports 2019</h1>
-  )
-}
-
-const Team = () => {
-  return(
-    <h1>The Team</h1>
   )
 }
 
