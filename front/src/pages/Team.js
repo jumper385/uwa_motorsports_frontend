@@ -1,4 +1,5 @@
 import React from 'react'
+import { connect } from 'react-redux'
 
 const Team = () => {
   return(
@@ -6,4 +7,8 @@ const Team = () => {
   )
 }
 
-export default Team
+const mapStateToProps = state => ({
+  members: state.members
+})
+
+export default connect(mapStateToProps)(Team)
