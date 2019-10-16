@@ -1,10 +1,17 @@
 import React from 'react'
 import { connect } from 'react-redux'
 
-const Team = () => {
-  return(
-    <h1>The Team</h1>
-  )
+class Team extends React.Component{
+
+  componentDidMount(){
+    console.log('Hello World')
+  }
+
+  render(){
+    return(
+      <h1>Hello World</h1>
+    )
+  }
 }
 
 const mapStateToProps = state => ({
